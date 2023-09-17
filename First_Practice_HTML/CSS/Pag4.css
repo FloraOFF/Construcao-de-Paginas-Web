@@ -1,0 +1,156 @@
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(167, 161, 90);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.Menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.ListinhaMenu{
+    float: left;
+}
+.ListinhaMenu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.ListinhaMenu a:hover{
+    background-color: none;
+}
+
+body {
+    background-image: url('../Images/Enigma-do-Medo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(35, 47, 51, 0.877);
+    text-align: center;
+}
+
+div{
+    background-color: rgb(57, 65, 64);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+b{
+    color: black;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(56, 53, 53);    
+}
+
+p{
+    background-color: rgb(57, 65, 64);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+a:link{
+    color:rgba(122, 167, 157, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgba(0, 0, 0, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgba(151, 120, 165, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color:rgb(159, 161, 123);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    width: 1000px;
+    background-color:rgba(24, 33, 34, 0.788);
+    margin: auto;
+    padding: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    color: rgb(63, 62, 62);
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+th, td{
+    background-color: rgb(19, 155, 160);
+    border-style: solid;
+    border-color: rgb(11, 83, 77);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+#Sangue{
+    background-color: rgb(124, 54, 45);
+}
+#Morte{
+    background-color: black;
+}
+#Conhecimento{
+    background-color: rgb(167, 161, 90);
+}
+#Energia{
+    background-color: slateblue;
+}
+#Medo{
+    background: rgb(110, 129, 126);
+}
+
+#LinkPg{
+    text-align: center;
+}

@@ -1,0 +1,164 @@
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(64, 158, 125);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.Menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.ListinhaMenu{
+    float: left;
+}
+.ListinhaMenu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.ListinhaMenu a:hover{
+    background-color: #252928;
+}
+
+body {
+    background-image: url('../Images/EquipeSemNome.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(25, 69, 80);
+    text-align: center;
+}
+
+div{
+    background-color: rgb(38, 117, 90);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(57, 194, 176);
+    color:rgb(56, 53, 53);    
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+a:link{
+    color:rgba(89, 226, 208, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgba(40, 202, 175, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgba(96, 123, 155, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color:aquamarine;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    width: 1000px;
+    background-color:rgba(46, 80, 82, 0.945);
+    margin: auto;
+    padding: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    color: rgb(63, 62, 62);
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+th, td{
+    background-color: rgb(19, 155, 160);
+    border-style: solid;
+    border-color: rgb(11, 83, 77);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+#PersonagensMonstros{
+    margin-left: auto;
+    margin-right: auto;
+}
+#Personagens{
+    margin-left: 30px;
+}
+#OrdoRealitas{
+    margin-left: 30px;
+}
+#Ocultistas{
+    margin-left: 30px;
+}
+#EscolaNostradamus{
+    margin-left: 30px;
+}
+#Monstros{
+    margin-left: 30px;
+}
+
+#Texto{
+    background-color: rgb(47, 136, 105);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;   
+}
+
+#Episodios{
+    text-align: center;
+}
+
+#LinkPg{
+    text-align: center;
+}

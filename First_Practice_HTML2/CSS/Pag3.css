@@ -1,0 +1,393 @@
+header{
+    margin: auto;
+    padding: 2%;
+    width: 86%;
+    text-align: center;
+    background-color: rgb(99, 34, 34);
+}
+
+nav {
+    background-color: #243633;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;
+}
+
+.dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    background-color: #04AA6D; 
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;  
+}
+
+.ListinhaMenu{
+    padding: 1%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ListinhaMenu li {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.ListinhaMenu a{
+    color: white;
+    background-color: none;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:hover{
+    background-color: none;
+    background-color: #252928;
+    text-decoration: none;
+    display: block;
+}
+
+.ListinhaMenu a:visited{
+    color:rgba(221, 94, 94, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:active{
+    color:rgba(235, 62, 62, 0.979);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../Images/Jouizinho.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Alike Angular';
+    color: white;
+    text-align: center;
+}
+
+main{
+    text-align: justify;
+    width: 75%;
+    background-color:rgba(87, 43, 43, 0.973);
+    margin: auto;
+    padding: 30px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#Texto{
+    background-color: rgba(185, 96, 61, 0.637);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+main h3{
+    font-family:'Alike Angular';
+    color: white;
+    margin-left: 30px;
+}
+
+main p{
+    font-family:'Abhaya Libre';
+    font-size: 110%;
+    color: white;
+    text-align: justify;
+}
+
+main h2{
+    font-family:'Alike Angular';
+    text-align: center;
+    background-color: rgba(209, 81, 49, 0.493);
+    color:rgb(32, 26, 26);    
+}
+
+table, th, td{
+    color:black;
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Abhaya Libre'; 
+    font-size: 103%; 
+}
+
+th, td{
+    background-color: rgba(143, 52, 40, 0.849);
+    border-style: solid;
+    border-color: rgba(78, 35, 35, 0.877);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+main a:link{
+    color:rgba(216, 137, 137, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+main a:visited{
+    color:rgba(224, 187, 187, 0.781);
+    background-color: transparent;
+    text-decoration: none;
+}
+main a:hover{
+    color:rgba(223, 104, 104, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+main a:active{
+    color:rgb(224, 96, 96);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 1.5%;
+    grid-template-columns: 50% 50%;
+    background-color: #682d2b;
+    border-radius: 0.5%;
+    padding: 1.5%;
+}
+
+.grid-item {
+    background-color: rgba(136, 65, 60, 0.788);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8%;
+    text-align: center;
+    border-radius: 1.2%;
+}
+
+.grid_M {
+    display: grid;
+    column-gap: 1.5%; 
+    grid-template-columns: 200%;
+    background-color: #682d2b;
+    border-radius: 0.5%;
+    padding: 0.5%;
+}
+
+.grid_M_item {
+    background-color: rgba(136, 65, 60, 0.788);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 4%;
+    text-align: center;
+    border-radius: 1.2%;
+}
+
+.grid_M_item h3 {
+    background-color:#2e1d19a8;
+    color: azure;
+    border-radius: 5%;
+}
+
+.grid-item h3 {
+    background-color:#2e1d19a8;
+    color: azure;
+    border-radius: 5%;
+}
+
+.Button { 
+    background-color: rgba(104, 72, 68, 0.37);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;  
+    animation: mymove 5s ;
+}
+
+@keyframes mymove {
+    50% {outline-width: 50px;}
+}
+
+.Button > div {
+    margin: 2%;
+    text-align: center;
+}
+
+.Button :hover {
+    margin: 2%;
+    height: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .ListinhaMenu {
+        padding: 0.5%;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .grid_M {
+        grid-template-columns: auto;
+    }
+
+    .dropbtn {
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        background-color: #04AA6D; 
+        font-size: 100%;
+        font-family:'Abhaya Libre';
+        border-style: none;  
+        overflow: visible;
+      }
+      
+      nav {
+        overflow: visible;
+      }
+      
+      .ListinhaMenu {
+        display: none; 
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .ListinhaMenu li{
+        position: relative;
+        display: block;
+      }
+      
+      .ListinhaMenu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .ListinhaMenu a:hover {background-color: #f1f1f1}
+      
+      nav:hover .ListinhaMenu {
+        display: block;
+      }
+      
+      nav:hover .dropbtn {
+        background-color: #27211f;
+      }
+}
+
+@media screen and (max-width: 700px) {
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 99.9%;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      } 
+}
+
+@media screen and (max-width: 800px) {
+    .Button {
+        display: flex;
+        flex-direction: column;
+    }
+    .Button img {
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+
+    body img {
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        float: right;
+    }
+    
+    nav { 
+        width: 20%;
+        float: left;
+    }
+
+    .ListinhaMenu li{
+        display: block;
+        padding: 8%;
+    }
+
+    .flex-container {
+        top: 33%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropbtn {
+        padding: 10%;
+    }
+}
+

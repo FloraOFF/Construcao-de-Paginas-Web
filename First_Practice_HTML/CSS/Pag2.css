@@ -1,0 +1,171 @@
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(35, 99, 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body {
+    background-image: url('../Images/EquipeE.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(9, 61, 22);
+    text-align: center;
+}
+
+.Menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.ListinhaMenu{
+    float: left;
+}
+.ListinhaMenu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.ListinhaMenu a:hover{
+    background-color: #252928;
+}
+
+main{
+    text-align: justify;
+    width: 1000px;
+    background-color:rgba(40, 70, 19, 0.932);
+    margin: auto;
+    padding: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Texto{
+    background-color: rgb(41, 121, 103);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(46, 129, 8, 0.493);
+    color:rgb(56, 53, 53);    
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+a:link{
+    color:rgba(25, 187, 60, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:rgba(54, 173, 70, 0.918);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(121, 194, 62, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(44, 187, 51);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+div{
+    background-color: rgb(36, 133, 99);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#LinkPg{
+    text-align: center;
+}
+
+table, th, td{
+    color: rgb(43, 42, 42);
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+th, td{
+    background-color: rgb(28, 104, 72);
+    border-style: solid;
+    border-color: rgb(11, 83, 61);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+#PersonagensMonstros{
+    margin-left: auto;
+    margin-right: auto;
+}
+#Personagens{
+    margin-left: 30px;
+}
+#OrdoRealitas{
+    margin-left: 30px;
+}
+#Membros{
+    margin-left: 30px;
+}
+#Aliados{
+    margin-left: 30px;
+}
+#Monstros{
+    margin-left: 30px;
+}
+#Antagonistas{
+    margin-left: 30px;
+}
+#SantoBerco{
+    margin-left: 30px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 30px;
+}
+#Episodios{
+    text-align: center;
+}
