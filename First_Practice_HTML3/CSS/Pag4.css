@@ -1,0 +1,417 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQcknXkvc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AlikeAngular/3qTrojWunjGQtEBlIcwMbSoI7kQwbQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* sinhala */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQYUnXkvc.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQfEnX.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header{
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(167, 161, 90);
+}
+
+header h1 {
+    font-family: 'Alike Angular';
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #243633;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;
+}
+
+.dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    background-color: #04AA6D; 
+    font-size: 90%;
+    font-family:'Abhaya Libre';
+    border-style: none;  
+}
+
+.ListinhaMenu{
+    padding: 1%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ListinhaMenu li {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.flex-containerMB {
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+.ListinhaMenu {
+    padding: 0.2%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ListinhaMenu a{
+    display: block;
+    color: rgb(156, 140, 102);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.ListinhaMenu a:hover{
+    background-color: none;
+    color:rgba(151, 120, 165, 0.973);
+    text-decoration: none;
+    background-color: #1c2725;
+}
+
+.ListinhaMenu a:active{
+    color:rgb(159, 161, 123);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:visited{
+    color:rgba(34, 133, 158, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a{
+    display: block;
+    color: rgb(156, 140, 102);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:visited{
+    color:rgba(34, 133, 158, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:hover{
+    color:rgba(151, 120, 165, 0.973);
+    background-color: none;
+    text-decoration: none;
+    background-color: #1c2725;
+}
+
+.ListinhaMenuMB a:active{
+    color:rgb(159, 161, 123);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../Images/Enigma-do-Medo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(35, 47, 51, 0.877);
+    text-align: center;
+}
+
+.Button { 
+    background-color: rgb(57, 65, 64);
+    border-radius: 1.5%;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    animation: mymove 5s;
+}
+
+.Button :hover {
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.04);
+}
+
+.Button > div {
+    margin: 2%;
+    text-align: center;
+}
+
+main h2{
+    font-family: 'Alike Angular';
+    text-align: center;
+    color:rgb(212, 208, 208);    
+}
+
+main p {
+    font-family:'Abhaya Libre';
+    font-size: 110%;
+    color: white;
+    text-align: justify;
+}
+
+#Texto {
+    background-color: rgb(57, 65, 64);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+main a:link{
+    color:rgba(122, 167, 157, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+main a:visited{
+    color:rgba(0, 0, 0, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+main a:hover{
+    color:rgba(151, 120, 165, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main a:active{
+    color:rgb(159, 161, 123);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    width: 75%;
+    background-color:rgba(24, 33, 34, 0.788);
+    margin: auto;
+    padding: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    color: rgb(63, 62, 62);
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+th, td{
+    background-color: rgb(19, 155, 160);
+    border-style: solid;
+    border-color: rgb(11, 83, 77);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+#Sangue{
+    background-color: rgb(124, 54, 45);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+#Morte{
+    background-color: black;
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+#Conhecimento{
+    background-color: rgb(167, 161, 90);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+#Energia{
+    background-color: slateblue;
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+#Medo{
+    background: rgb(110, 129, 126);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-containerMB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        display: none;
+    }
+
+    .ListinhaMenu {
+        padding: 0.5%;
+    }
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .dropbtn {
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        background-color: #04AA6D; 
+        font-size: 100%;
+        font-family:'Abhaya Libre';
+        border-style: none;  
+      }
+
+      i {
+        padding-left: 50%;
+        cursor: pointer;
+      }
+      
+      .ListinhaMenu {
+        display: none; 
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .ListinhaMenu li{
+        position: relative;
+        display: block;
+      }
+
+      .ListinhaMenuMB li{
+        position: relative;
+        display: none;
+      }
+      
+      .ListinhaMenu a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .ListinhaMenuMB a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .ListinhaMenu a:hover {background-color: #f1f1f1}
+      
+      nav.ListinhaMenu {
+        display: inline-block;
+      }
+      
+      /*nav:hover .dropbtn {
+        background-color: #27211f;
+      }*/
+}
+
+@media screen and (max-width: 700px) {
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Button {
+        display: flex;
+        flex-direction: column;
+    }
+    .Button img {
+        width: 90%;
+        height: auto;
+    }
+
+    body img {
+        background-size: contain;
+    }
+    main {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+

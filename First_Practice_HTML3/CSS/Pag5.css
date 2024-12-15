@@ -1,0 +1,464 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQcknXkvc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AlikeAngular/3qTrojWunjGQtEBlIcwMbSoI7kQwbQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* sinhala */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQYUnXkvc.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQfEnX.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header{
+    margin: auto;
+    padding: 2%;
+    width: 86%;
+    text-align: center;
+    background-color: rgb(204, 170, 58);
+}
+
+header h1 {
+    font-family: 'Alike Angular';
+    color: white;
+    text-align: center;
+}
+
+.flex-containerMB {
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: #243633;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;
+}
+
+.dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    background-color: #04AA6D; 
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;  
+}
+
+.ListinhaMenu{
+    padding: 1%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ListinhaMenu li {
+    display: inline-block;
+}
+
+.ListinhaMenu a{
+    display: block;
+    color:rgba(217, 226, 89, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:visited{
+    color:rgba(235, 228, 172, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:hover{
+    color:rgba(204, 195, 119, 0.973);
+    background-color: none;
+    text-decoration: none;
+    background-color: #1c2725;
+}
+
+.ListinhaMenu a:active{
+    color:rgb(255, 214, 127);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a{
+    display: block;
+    color:rgba(217, 226, 89, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:visited{
+    color:rgba(235, 228, 172, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:hover{
+    color:rgba(204, 195, 119, 0.973);
+    background-color: none;
+    text-decoration: none;
+    background-color: #1c2725;
+}
+
+.ListinhaMenuMB a:active{
+    color:rgb(255, 214, 127);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../Images/EquipeAbutres.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.Button { 
+    background-color: rgba(184, 167, 87, 0.37);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;  
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    animation: mymove 5s;
+}
+
+.Button :hover {
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.04);
+}
+
+.Button > div {
+    margin: 2%;
+    text-align: center;
+}
+
+.h2:hover {
+    background-color: rgb(57, 194, 176); 
+    width: 40%;
+    transition-property: width;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+
+
+.h2 h2 {
+    background-color: rgb(57, 194, 176);  
+}
+
+main h2 {
+    font-family: 'Alike Angular';
+    text-align: center;
+    background-color: rgb(196, 177, 93);
+    color:rgb(56, 53, 53);   
+    transition-property: width;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s; 
+}
+
+main p {
+    font-family:'Abhaya Libre';
+    font-size: 110%;
+    color: white;
+    text-align: justify;
+}
+
+main a:link {
+    color:rgba(217, 226, 89, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+main a:visited {
+    color:rgba(235, 228, 172, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+main a:hover{
+    color:rgba(204, 195, 119, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main a:active{
+    color:rgb(255, 214, 127);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    width: 75%;
+    background-color:rgba(124, 111, 71, 0.945);
+    margin: auto;
+    padding: 30px;
+}
+
+table, th, td{
+    color: rgb(63, 62, 62);
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:'Abhaya Libre';
+    font-size: 110%;
+}
+
+th, td{
+    background-color: rgb(189, 157, 55);
+    border-style: solid;
+    border-color: rgb(83, 82, 11);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main ul, li{
+    margin-left: 10px;
+}
+
+footer h2 {
+    font-family: 'Alike Angular';
+    text-align: center;
+    background-color: rgb(194, 162, 57);
+    color:rgb(56, 53, 53); 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#Texto {
+    background-color:rgb(145, 116, 37);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+h3 {
+    font-family: 'Alike Angular';;
+    color: rgb(49, 53, 56);
+    text-align: center;
+    display: inline;
+    background-color: rgb(163, 144, 57);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 80vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}*/
+
+.grid-container {
+    display: grid;
+    column-gap: 2%;
+    grid-template-columns: auto auto;
+    background-color: #745f26;
+    border-radius: 0.5%;
+    padding: 2%;
+}
+
+.grid-item {
+    background-color: rgba(194, 165, 71, 0.836);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8%;
+    border-radius: 1.2%;
+}
+
+.grid-item h3 {
+    background-color:#4e4931de;
+    color: azure;
+}
+
+.Personagens {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: #88874c;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-containerMB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        display: none;
+    }
+
+    .ListinhaMenu {
+        padding: 0.5%;
+    }
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .dropbtn {
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        background-color: #04AA6D; 
+        font-size: 100%;
+        font-family:'Abhaya Libre';
+        border-style: none;  
+      }
+
+      i {
+        padding-left: 50%;
+        cursor: pointer;
+      }
+      
+      .ListinhaMenu {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .ListinhaMenu li{
+        position: relative;
+        display: block;
+      }
+
+      .ListinhaMenuMB li{
+        position: relative;
+        display: none;
+      }
+      
+      .ListinhaMenu a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .ListinhaMenuMB a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .ListinhaMenu a:hover {background-color: #f1f1f1}
+      
+      nav.ListinhaMenu {
+        display: inline-block;
+      }
+      
+      /*nav:hover .dropbtn {
+        background-color: #243633;
+      }*/
+}
+
+@media screen and (max-width: 700px) {
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+    /*
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img img {
+        width: 60vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }*/
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+}
+
+@media screen and (max-width: 800px) {
+    .Button {
+        display: flex;
+        flex-direction: column;
+    }
+    .Button img {
+        width: 90%;
+        height: auto;
+    }
+
+    body img {
+        background-size: contain;
+    }
+}
+
+

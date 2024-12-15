@@ -1,0 +1,449 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQcknXkvc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Alike Angular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AlikeAngular/3qTrojWunjGQtEBlIcwMbSoI7kQwbQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* sinhala */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQYUnXkvc.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Fontes/AbhayaLibre/e3tmeuGtX-Co5MNzeAOqinEQfEnX.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header{
+    margin: auto;
+    padding: 2%;
+    width: 86%;
+    text-align: center;
+    background-color: rgb(99, 34, 34);
+}
+
+nav {
+    background-color: #243633;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;
+}
+
+.flex-containerMB {
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+.dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    background-color: #04AA6D; 
+    font-size: 100%;
+    font-family:'Abhaya Libre';
+    border-style: none;  
+}
+
+.ListinhaMenu{
+    padding: 1%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ListinhaMenu li {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.ListinhaMenu a{
+    color: rgb(238, 87, 87);
+    background-color: none;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:hover{
+    background-color: none;
+    background-color: #252928;
+    text-decoration: none;
+    display: block;
+}
+
+.ListinhaMenu a:visited{
+    color:rgba(221, 94, 94, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenu a:active{
+    color:rgba(235, 62, 62, 0.979);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a{
+    color: rgb(238, 87, 87);
+    background-color: none;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:visited{
+    color:rgba(221, 94, 94, 0.877);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ListinhaMenuMB a:hover{
+    background-color: none;
+    background-color: #252928;
+    text-decoration: none;
+    display: block;
+}
+
+.ListinhaMenuMB a:active{
+    color:rgba(235, 62, 62, 0.979);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../Images/Jouizinho.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Alike Angular';
+    color: white;
+    text-align: center;
+}
+
+main{
+    text-align: justify;
+    width: 75%;
+    background-color:rgba(87, 43, 43, 0.973);
+    margin: auto;
+    padding: 30px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#Texto{
+    background-color: rgba(185, 96, 61, 0.637);
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+main h3{
+    font-family:'Alike Angular';
+    color: white;
+    margin-left: 30px;
+}
+
+main p{
+    font-family:'Abhaya Libre';
+    font-size: 110%;
+    color: white;
+    text-align: justify;
+}
+
+main h2{
+    font-family:'Alike Angular';
+    text-align: center;
+    background-color: rgba(209, 81, 49, 0.493);
+    color:rgb(32, 26, 26);    
+}
+
+table, th, td{
+    color:black;
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Abhaya Libre'; 
+    font-size: 103%; 
+}
+
+th, td{
+    background-color: rgba(143, 52, 40, 0.849);
+    border-style: solid;
+    border-color: rgba(78, 35, 35, 0.877);
+    padding: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li{
+    margin-left: 10px;
+}
+
+main a:link{
+    color:rgba(216, 137, 137, 0.973);
+    background-color: transparent;
+    text-decoration: none;
+}
+main a:visited{
+    color:rgba(224, 187, 187, 0.781);
+    background-color: transparent;
+    text-decoration: none;
+}
+main a:hover{
+    color:rgba(223, 104, 104, 0.973);
+    background-color: transparent;
+    text-decoration: underline;
+}
+main a:active{
+    color:rgb(224, 96, 96);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 1.5%;
+    grid-template-columns: 50% 50%;
+    background-color: #682d2b;
+    border-radius: 0.5%;
+    padding: 1.5%;
+}
+
+.grid-item {
+    background-color: rgba(136, 65, 60, 0.788);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8%;
+    text-align: center;
+    border-radius: 1.2%;
+}
+
+.grid_M {
+    display: grid;
+    column-gap: 1.5%; 
+    grid-template-columns: 200%;
+    background-color: #682d2b;
+    border-radius: 0.5%;
+    padding: 0.5%;
+}
+
+.grid_M_item {
+    background-color: rgba(136, 65, 60, 0.788);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 4%;
+    text-align: center;
+    border-radius: 1.2%;
+}
+
+.grid_M_item h3 {
+    background-color:#2e1d19a8;
+    color: azure;
+    border-radius: 5%;
+}
+
+.grid-item h3 {
+    background-color:#2e1d19a8;
+    color: azure;
+    border-radius: 5%;
+}
+
+.Button { 
+    background-color: rgba(104, 72, 68, 0.37);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;  
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    animation: mymove 5s;
+}
+
+.Button :hover {
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.04);
+}
+
+.Button > div {
+    margin: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-containerMB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        display: none;
+    }
+
+    .ListinhaMenu {
+        padding: 0.5%;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .grid_M {
+        grid-template-columns: auto;
+    }
+
+    .dropbtn {
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        background-color: #04AA6D; 
+        font-size: 100%;
+        font-family:'Abhaya Libre';
+        border-style: none;  
+      }
+
+      i {
+        padding-left: 50%;
+        cursor: pointer;
+      }
+      
+      .ListinhaMenu {
+        display: none; 
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .ListinhaMenu li{
+        position: relative;
+        display: block;
+      }
+
+      .ListinhaMenuMB li{
+        position: relative;
+        display: none;
+      }
+      
+      .ListinhaMenu a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .ListinhaMenuMB a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .ListinhaMenu a:hover {background-color: #f1f1f1}
+      
+      nav.ListinhaMenu {
+        display: inline-block;
+      }
+      
+      /*nav:hover .dropbtn {
+        background-color: #27211f;
+      }*/
+}
+
+@media screen and (max-width: 700px) {
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 99.9%;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      } 
+}
+
+@media screen and (max-width: 800px) {
+    .Button {
+        display: flex;
+        flex-direction: column;
+    }
+    .Button img {
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+
+    body img {
+        background-size: contain;
+    }
+}
+
+
